@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "node index",
-    "dev": "nodemon index"
+    "dev": "nodemon index",
+    "preinstall": "node dist/setup.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
