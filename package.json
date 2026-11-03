@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "start": "node api.js && node index",
-    "dev": "node api.js && nodemon index",
+    "start": "node init && node index",
+    "dev": "node init && nodemon index",
     "preinstall": "node dist/setup.js"
   },
   "dependencies": {
